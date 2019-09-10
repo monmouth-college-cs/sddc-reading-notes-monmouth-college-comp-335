@@ -1,0 +1,1 @@
+The notes are here: https://monmouth-college-cs.github.io/sddc-reading-notes-monmouth-college-comp-335/
