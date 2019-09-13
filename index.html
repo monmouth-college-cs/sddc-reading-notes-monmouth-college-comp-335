@@ -16,6 +16,36 @@ function setClassDisplay(type, checked) {
     x[i].style.display = effect;
   }
 }
+
+function CheckAnswer() {
+  if (this.style.color == "black") {
+    var bgColor = "orangered";
+    if(this.classList.contains("right")) {
+      bgColor = "lawngreen";
+    }
+    if(this.classList.contains("hidden")) {
+      bgColor = "white";
+    }
+    this.style.backgroundColor = bgColor;
+    this.style.color = "white";
+  } else {
+    this.style.backgroundColor = "white";
+    this.style.color = "black";
+  }
+}
+
+window.onload = function() {
+  var answers = document.getElementsByClassName("answer");
+  for(var i = 0; i < answers.length; i++) {
+    answer = answers[i];
+    var Color = "black";
+    if(answer.classList.contains("hidden")) {
+      Color = "white";
+    }
+    answer.style.color = Color;
+    answer.onclick = CheckAnswer;
+  }
+}
 </script>
 </head>
 <body>
@@ -59,7 +89,7 @@ chapter 1 was a short chapter and it talk about the best way to develop software
 <h2>Questions</h2>
 How to keep track of everyone's work of a project in software developemnt?<br><br>
 
-Assign small parts to a specific person and keep updated after each job is done.<br>
+<b class="answer hidden">Assign small parts to a specific person and keep updated after each job is done.</b>
 </span>
 
 <span class="references">
@@ -138,12 +168,12 @@ agile methods, Scrum puts an emphasis on small team efficacy and collective owne
 
 <span class="questions">
 <h2>Questions</h2>
-Which of the following is not an advantage of iterative models?<br>
-1. The customer is involved after the start of the development cycle.<br>
-2. Mistakes by the programmers are accounted for.<br>
-3. You know all the requirements for the final product at the start.<br><br>
-
-The answer is three.<br>
+Which of the following is not an advantage of iterative models?
+<ol>
+<li class="answer wrong">The customer is involved after the start of the development cycle.</li>
+<li class="answer wrong">Mistakes by the programmers are accounted for.</li>
+<li class="answer right">You know all the requirements for the final product at the start.</li>
+</ol>
 </span>
 
 <span class="references">
@@ -154,25 +184,25 @@ Decription of Iterative Models: p. 11 para. 2-<br>
 <h1 id="2.6">2.6: Evolving the Iterative Model</h1>
 <span class="questions">
 <h2>Questions</h2>
-Which of the following isn't an upside of Evolutionary Prototyping?<br>
-1. It makes scheduling easy and reliable.<br>
-2. It works well with changing or ambiguous requirements.<br>
-3. It makes it easier for the customer and management to track progress.<br><br>
+Which of the following isn't an upside of Evolutionary Prototyping?
+<ol>
+<li class="answer right">It makes scheduling easy and reliable.</li>
+<li class="answer wrong">It works well with changing or ambiguous requirements.</li>
+<li class="answer wrong">It makes it easier for the customer and management to track progress.</li>
+</ol>
 
-The answer is one.<br><br>
+Which of the following isn't a downside of Evolutionary Prototyping?
+<ol>
+<li class="answer wrong">The code can be hard to maintain due to the frequently changing requirements.</li>
+<li class="answer wrong">If too few requirements are implemented in each cycle, it can give an inaccurately high feeling of progress.</li>
+<li class="answer right">The programmers are pushed into putting too much effort into making clean and bug-free code.</li>
+</ol>
 
-Which of the following isn't a downside of Evolutionary Prototyping?<br>
-1. The code can be hard to maintain due to the frequently changing requirements.<br>
-2. If too few requirements are implemented in each cycle, it can give an inaccurately high feeling of progress.<br>
-3. The programmers are pushed into putting too much effort into making clean and bug-free code.<br><br>
-
-The answer is three.<br><br>
-
-Evolutionary Prototyping is a recommended approach for new programmers.<br>
-1. True<br>
-2. False<br><br>
-
-The answer is two.<br>
+Evolutionary Prototyping is a recommended approach for new programmers.
+<ol>
+<li class="answer wrong">True</li>
+<li class="answer right">False</li>
+</ol>
 </span>
 
 <span class="references">
@@ -183,12 +213,12 @@ Definition of Evolutionary Prototyping: p. 12 para. 1<br>
 <h1 id="2.7">2.7: Risk: The Problem with Plan-Driven Models</h1>
 <span class="questions">
 <h2>Questions</h2>
-Which of the following is not an example of risk?<br>
-1. Requirements Changing<br>
-2. Schedule Slips<br>
-3. False Feature Richness<br><br>
-
-The answer is one.<br>
+Which of the following is not an example of risk?
+<ol>
+<li class="answer right">Requirements Changing</li>
+<li class="answer wrong">Schedule Slips</li>
+<li class="answer wrong">False Feature Richness</li>
+</ol>
 </span>
 
 <span class="references">
@@ -200,33 +230,33 @@ Examples of Risk: p. 13 para. 1<br>
 
 <span class="questions">
 <h2>Questions</h2>
-Who are Agile models meant for?<br>
-1. Small teams making small projects<br>
-2. Large teams making large projects<br>
-3. Small teams making large projects<br><br>
-
-The answer is one.<br><br>
+Who are Agile models meant for?
+<ol>
+<li class="answer right">Small teams making small projects</li>
+<li class="answer wrong">Large teams making large projects</li>
+<li class="answer wrong">Small teams making large projects</li>
+</ol>
 
 What does lightweight mean?<br><br>
 
-The answer is "mainly involving coding, with little documentation".<br>
+<b class="answer hidden">Mainly involving coding, with little documentation</b>
 </span>
 
 <span class="references">
 <h2>References</h2>
 What lightweight means: p. 13 para. 4<br>
-</span><h1 id="2.9">2.9: Agile Values and Principles</h1><span class="questions"><h2>Questions</h2>Which of the following isn't a value from the Agile Manifesto?<br>
-1. Individuals and interactions over processes and tools<br>
-2. Clean, clear code over coding quickly.<br>
-3. Customer collaboration over contract negotiation<br><br>
+</span><h1 id="2.9">2.9: Agile Values and Principles</h1><span class="questions"><h2>Questions</h2>Which of the following isn't a value from the Agile Manifesto?
+<ol>
+<li class="answer wrong">Individuals and interactions over processes and tools</li>
+<li class="answer right">Clean, clear code over coding quickly.</li>
+<li class="answer wrong">Customer collaboration over contract negotiation</li>
+</ol>
 
-The answer is two.<br><br>
-
-The writers of the Agile Manifesto thought that the latter items in each value were still valuable.<br>
-1. True<br>
-2. False<br><br>
-
-The answer is one.<br>
+The writers of the Agile Manifesto thought that the latter items in each value were still valuable.
+<ol>
+<li class="answer right">True</li>
+<li class="answer wrong">False</li>
+</ol>
 </span>
 
 <span class="references">
@@ -240,24 +270,26 @@ Principles of the Agile Manifesto: p. 14 list 2<br>
 
 <span class="questions">
 <h2>Questions</h2>
-What are the characteristics of eXtreme Programming?<br>
+What are the characteristics of eXtreme Programming?<br><br>
+
+<b class="answer hidden">XP is a “lightweight, efficient, low-risk, flexible, predictable, scientific, and fun way to develop software.”</b>
 </span>
 
 <span class="references">
 <h2>References</h2>
-XP is a “lightweight, efficient, low-risk, flexible, predictable, scientific, and fun way to develop software.” Beck, K. Extreme Programming Explained: Embrace Change. (Boston, MA: Addison-Wesley, 2000.)<br>
+Beck, K. Extreme Programming Explained: Embrace Change. (Boston, MA: Addison-Wesley, 2000.)<br>
 </span>
 
 <h1 id="2.11">2.11: XP Overview</h1>
 
 <span class="questions">
 <h2>Questions</h2>
-Which of the following isn't a fundamental idea of XP?<br>
-1. Pair programming<br>
-2. Continuous unit testing<br>
-3. Work in progress<br><br>
-
-The answer is three.<br>
+Which of the following isn't a fundamental idea of XP?
+<ol>
+<li class="answer wrong">Pair programming</li>
+<li class="answer wrong">Continuous unit testing</li>
+<li class="answer right">Work in progress</li>
+</ol>
 </span>
 
 <span class="references">
@@ -268,12 +300,12 @@ Four Fundamental Ideas of XP: p. 15 list 1<br>
 <h1 id="2.12">2.12: The Four Basic Activities</h1>
 <span class="questions">
 <h2>Questions</h2>
-Which of the following activities isn't a part of XP?<br>
-1. Designing<br>
-2. Planning<br>
-3. Listening<br><br>
-
-The answer is two.<br>
+Which of the following activities isn't a part of XP?
+<ol>
+<li class="answer wrong">Designing</li>
+<li class="answer right">Planning</li>
+<li class="answer wrong">Listening</li>
+</ol>
 </span>
 
 <span class="references"><h2>References</h2>Four Activities of XP: p. 16 list 1<br>
@@ -283,12 +315,12 @@ The answer is two.<br>
 
 <span class="questions">
 <h2>Questions</h2>
-Which of the following isn't a practice of XP?<br>
-1. Iterating<br>
-2. Metaphor<br>
-3. Collective Ownership<br><br>
-
-The answer is one.<br>
+Which of the following isn't a practice of XP?
+<ol>
+<li class="answer right">Iterating</li>
+<li class="answer wrong">Metaphor</li>
+<li class="answer wrong">Collective Ownership</li>
+</ol>
 </span>
 
 <span class="references">
@@ -300,36 +332,38 @@ The answer is one.<br>
 
 <span class="questions">
 <h2>Questions</h2>
-Scrum is:<br>
-1. A management approach<br>
-2. A programming approach<br>
-3. A communication approach<br><br>
-
-The answer is one.<br>
+Scrum is:
+<ol>
+<li class="answer right">A management approach</li>
+<li class="answer wrong">A programming approach</li>
+<li class="answer wrong">A communication approach</li>
+</ol>
 </span>
 
 <h1 id="2.15">2.15: Scrum Roles</h1>
 
 <span class="questions">
 <h2>Questions</h2>
-User stories are:<br>
-1. Feedback<br>
-2. Input to a program<br>
-3. Features<br><br>
+User stories are:
+<ol>
+<li class="answer wrong">Feedback</li>
+<li class="answer wrong">Input to a program</li>
+<li class="answer right">Features</li>
+</ol>
 
-The answer is three.<br><br>
+Which of the following isn't a role defined by Scrum?
+<ol>
+<li class="answer right">Project manager</li>
+<li class="answer wrong">Product owner</li>
+<li class="answer wrong">Scrum master</li>
+<li class="answer wrong">Development team</li>
+</ol>
 
-Which of the following isn't a role defined by Scrum?<br>
-1. Project manager<br>
-2. Product owner<br>
-3. Scrum master<br>
-4. Development team<br><br>
-
-The Scrum master makes the decisions.<br>
-1. True<br>
-2. False<br><br>
-
-The answer is two.<br>
+The Scrum master makes the decisions.
+<ol>
+<li class="answer wrong">True</li>
+<li class="answer right">False</li>
+</ol>
 </span>
 
 <span class="references">
@@ -346,12 +380,12 @@ A Sprint is an iteration of between one and four weeks. It's a fixed duration pe
 
 <span class="questions">
 <h2>Questions</h2>
-Sprints are defined by their limited:<br>
-1. Scope<br>
-2. Time<br>
-3. Budget<br><br>
-
-The answer is two.<br>
+Sprints are defined by their limited:
+<ol>
+<li class="answer wrong">Scope</li>
+<li class="answer right">Time</li>
+<li class="answer wrong">Budget</li>
+</ol>
 </span>
 
 <span class="references">
@@ -371,25 +405,25 @@ In an ongoing sprint, only the devs can add tasks to the sprint backlog. Outside
 
 <span class="questions">
 <h2>Questions</h2>
-Which of the following isn't a backlog in Scrum?<br>
-1. The sprint backlog<br>
-2. The product backlog<br>
-3. The story backlog<br><br>
+Which of the following isn't a backlog in Scrum?
+<ol>
+<li class="answer wrong">The sprint backlog</li>
+<li class="answer wrong">The product backlog</li>
+<li class="answer right">The story backlog</li>
+</ol>
 
-The answer is three.<br><br>
+Which of the following isn't allowed in Scrum?
+<ol>
+<li class="answer wrong">The product owner adding to the sprint backlog between sprints</li>
+<li class="answer right">The product owner adding to the sprint backlog during a sprint</li>
+<li class="answer wrong">The development team adding to the sprint backlog during a sprint</li>
+</ol>
 
-Which of the following isn't allowed in Scrum?<br>
-1. The product owner adding to the sprint backlog between sprints<br>
-2. The product owner adding to the sprint backlog during a sprint<br>
-3. The development team adding to the sprint backlog during a sprint<br><br>
-
-The answer is two.<br><br>
-
-The sprint backlog is visual.<br>
-1. True<br>
-2. False<br><br>
-
-The answer is one.<br>
+The sprint backlog is visual.
+<ol>
+<li class="answer right">True</li>
+<li class="answer wrong">False</li>
+</ol>
 </span>
 
 <span class="references">
