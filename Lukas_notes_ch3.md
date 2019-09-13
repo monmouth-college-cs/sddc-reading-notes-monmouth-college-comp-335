@@ -3,7 +3,7 @@
 ### Resource Requirements
 (pg 33)
 
-Resource Requirements is a simple part of management where you identify what, when and where are all the resources of the project. It includes Workstations, people, software, hardware and more.
+Resource Requirements are a simple part of management where you identify the whats, whens and wheres of the resources of the project. It includes Workstations, people, software, hardware and more.
 
 ## Task Estimates
 (pg 33)
@@ -25,4 +25,4 @@ Once you have the task estimates you can create a schedule. Important things to 
 ## Velocity
 (pg 35)
 
-The Velocity of a task can also prove useful when creating a schedule. The velocity is defined as the estimated effort of a task, divided by the actual effort.  If you overestimate your task, your velocity will be greater than one (your task took less time than you originally thought); if you underestimate, it will be less than one (the task took you longer than you originally thought). Ideally, velocity should be 1.0, but that hardly ever happens. Velocty can be used to give both the manager and the developers an idea of how accurate their predictions are.
+The Velocity of a task can also prove useful when creating a schedule. The velocity is defined as the estimated effort of a task, divided by the actual effort.  If you overestimate your task, your velocity will be greater than one (your task took less time than you originally thought); if you underestimate, it will be less than one (the task took you longer than you originally thought). Ideally, velocity should be 1.0, but that hardly ever happens. Velocity can be used to give both the manager and the developers an idea of how accurate their predictions are.
