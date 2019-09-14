@@ -1,7 +1,7 @@
 # Chapter 3
 ## Project Management Essentials
 
-Project management is required for a sofware development team. Tasks involved:
+Understanding project management is required. Tasks involved:
 * Project planning
 * Estimation and scheduling
 * Resource management
@@ -20,7 +20,7 @@ The team manage the Agile project. They need to make to sure there is no delay i
 
 ### Project Planning
 
-For a plan-driven process model, a project plan is an actual document of how the project will be managed, written by the project by the project manager.
+For a plan-driven process model, a project plan is an actual document of how the project will be managed, written by the project manager.
 
 A project plan has seven parts:
 * Introdution and explanation of the project
@@ -48,11 +48,12 @@ Agile projects are iterative, use short development cycles, and produce running 
 
 ### Risk Analysis
 
-In risk analysis, we need to think what are the possiblites of the project could not be done and how we are going to prevent them.
+We need to think of possiblie factors that can go wrong and how we are going to prevent from happening.
  - Schedule slips : A task could take longer than we expected. When it happens, we need to report immediately the estimated late time.
 	It could happen often when there is not regular status meetings like plan-driven project.
  - Defet rate is excessive : If the program has a lot of bugs in tests, we should pause writing codes and look at the code a little bit and clean up the bug.
- - Requirements misunderstood : While the customers has their business and end user point of view, the developers need to figure out how they are going to it on their technical view. Regular meetings and frequent releases will help the misunderstanding between customers and developers.
- - Requirement churn : To release an update, it requires adding new features and fixing bugs. In Plan-driven project, change contol borad could drop a feature without knowing it was required. We need to do a final meeting before releasing.
+ - Requirements misunderstood : Regular meetings and frequent releases will help the misunderstanding between customers and developers.
+ - Requirement churn : To release an update, it requires adding new features and fixing bugs.Churn happens when the customer continues to change requirements while development is underway.
  - Turnover : Best way to reduce turnover is to 1) give developers interesting work 2) have them work in pleasant enviroment 3) give them control over their own schedules.
 
+All the risks are needed to address and find a way to avoid the risk. We can remove some feature from a release, stop work on new features and do a bug hunt, negotiate new features into a furture release, which is called mitigation. Then, we should have a plan to handle identifiable risks.
