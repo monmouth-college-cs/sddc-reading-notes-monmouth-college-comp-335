@@ -1,0 +1,35 @@
+## Review questions
+
+1.  if you don't know what the defect is how would you make a defect tracking system if you don't know what your tracking?
+  Answer: you have to wait till the program is being used and a defect happen in order to track similar defects.
+
+2.   what is the importance of the Retrospective part of the project.
+  Answer:    the importance of the Retrospective part of the project is that you get to see what you did wrong and what you didn't right also get to take a look at how you team did overall. you get to take a bird's-eyes view of the program not just you part.
+
+## references
+
+### Defects(pg 37)
+
+1.  Fatal: Either this defect causes the product to crash
+
+2. Severe: A major piece of functionality doesn’t work
+
+3. Serious: A piece of functionality doesn’t work
+
+4. Annoying: There’s a minor defect or error in the documentation
+
+5. needing to add New feature
+
+**defect level 1 and 2 should be fix before product is released**
+
+### Retrospective(pg 38)
+
+•	 What went right? Did our process work the way we anticipated?
+
+•	 What went wrong? Why did we have so many defects?
+
+•	 What process issues came up? Did we follow our process?
+
+•	 What do we need to fix for next time
+
+•	  Who’s responsible for the fixing the problems the team came up with?
