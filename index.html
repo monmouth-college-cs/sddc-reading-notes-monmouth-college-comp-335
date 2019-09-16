@@ -71,6 +71,19 @@ window.onload = function() {
   <a href="#2.20">2.20: Kanban</a>
   <a href="#2.21">2.21: Kanban Board, WIP, and Flow</a>
   <a href="#2.22">2.22: Lead Time</a>
+<a href="#3">3: Project Management Essentials</a>
+  <a href="#3.1">3.1: Project Planning</a>
+  <a href="#3.2">3.2: Project Organization</a>
+  <a href="#3.3">3.3: Risk Analysis</a>
+  <a href="#3.4">3.4: Resource Requirements</a>
+  <a href="#3.5">3.5: Task Estimates</a>
+  <a href="#3.6">3.6: Project Schedule</a>
+  <a href="#3.7">3.7: Velocity</a>
+  <a href="#3.8">3.8: Project Oversight</a>
+  <a href="#3.9">3.9: Status Reviews and Presentations</a>
+  <a href="#3.10">3.10: Defects</a>
+  <a href="#3.11">3.11: The Retrospective</a>
+  <a href="#3.12">3.12: Conclusion</a>
 
 Display:
 <input type="checkbox" onclick="setClassDisplay('summary',this.checked)" checked>Summaries
@@ -477,6 +490,394 @@ WIP and flow depicted visually on a Kanban board. Similar to a scrum task board.
 It's the amount of time it takes for the team to move a task from one column to another in the kanban board. The date the task is started in the ToDo column is called entry date. The day it's done in called the done date. <br>
 </span>
 
+<h1 id="3">3: Project Management Essentials</h1>
+
+<span class="summary">
+<h2>Summary</h2>
+Understanding project management is required. Tasks involved:
+<ul>
+<li>Project planning</li>
+<li>Estimation and scheduling</li>
+<li>Resource management</li>
+<li>Project oversight</li>
+<li>Project reviews and presentations</li>
+<li>The project retrospective</li>
+</ul>
+Project managers are responsible for
+<ul>
+<li>managing scope, costs, estimation, schedule, quality, personnel, communication, risk, etc.</li>
+</ul>
+The team manage the Agile project. They need to make to sure there is no delay in management decision-making. If there is a manager,
+<ul>
+<li>make sure the team has the resources</li>
+<li>ensure the team adheres to agile values and principles</li>
+<li>facilitate communication</li>
+<li>shield the team from outside interruptions</li>
+</ul>
+</span>
+
+<span class="questions">
+<h2>Questions</h2>
+As developers, what tasks do we need to focus on the most? (Pg: 29)
+
+<b class="answer hidden">
+<ul>
+<li>Project planning</li>
+<li>Estimation and scheduling</li>
+<li>Resource management</li>
+<li>Project oversight</li>
+<li>Project reviews and presentations</li>
+<li>The project retrospective</li>
+</ul>
+</b>
+
+(T/F) In agile projects, the teammates are only responsible for managing their portion of the project. (Pg: 29)<br><br>
+
+<b class="answer hidden">
+False (Agile projects allow everyone on the team to be responsible for the whole project)</b>
+</span>
+
+<h1 id="3.1">3.1: Project Planning</h1>
+
+<span class="summary">
+<h2>Summary</h2>
+For a plan-driven process model, a project plan is an actual document of how the project will be managed, written by the project manager.<br><br>
+
+A project plan has seven parts:
+<ul>
+<li>Introdution and explanation of the project</li>
+<li>Team organization</li>
+<li>Risk analysis</li>
+<li>Hardware, software, and human resource requirements</li>
+<li>Task list and size and effort estimates</li>
+<li>Project schedule</li>
+<li>Project monitoring and reporting mechanisms</li>
+</ul>
+An agile project is feature-based, mulitlayer and organized into iterations. The project is owned by the team.<br>
+</span>
+
+<span class="questions">
+<h2>Questions</h2>
+(T/F) Project planning is done and fixed from the beginning. (Pg: 30)<br><br>
+
+<b class="answer hidden">False (Project planning is a fluid and continuous process)</b><br><br>
+
+What is a project plan? List different parts of it. (Pg: 30)<br><br>
+
+<b class="answer hidden">It's a document written by the project manager and then approved by both the dev. team and upper management.<br><br>
+
+Consists of following parts:
+<ul>
+<li>Introduction and explanation of the project</li>
+<li>Team organization</li>
+<li>Risk analysis</li>
+<li>Hardware, software, and human resource requirements</li>
+<li>Task list and size and effort estimates</li>
+<li>Project schedule</li>
+<li>Project monitoring and reporting mechanisms, collectively known as project oversight</li>
+</ol>
+</b>
+</span>
+
+<h1 id="3.2">3.2: Project Organization</h1>
+
+<span class="summary">
+<h2>Summary</h2>
+Three things for project organization are:
+<ul>
+<li>How you are going to organize the team</li>
+<li>Deciding the process model</li>
+<li>Managing the project on day-to-day basis</li>
+</ul>
+These are important for brand new projects and inexperienced teams because it will help you to start the actual project work.<br><br>
+
+Since Agile team is small, it is easy to organize the project. The code, testings and expertise are all shared within the team. Being in an agile team will improve a lot of skills learning new things doing agile projects.<br><br>
+
+Agile projects are iterative, use short development cycles, and produce running code with more features at the end of each iteration. The team has daily meetings, integrations and shared or paired programming.<br>
+</span>
+
+<span class="questions">
+<h2>Questions</h2>
+How are agile projects organized on a daily basis? (Pg: 31)<br><br>
+
+<b class="answer hidden">On a daily basis, developers do daily meetings/integrations. The work iterations are usually very small and most of the time is spent writing executing tests.</b>
+</span>
+
+<h1 id="3.3">3.3: Risk Analysis</h1>
+
+<span class="summary">
+<h2>Summary</h2>
+We need to think of possible factors that can go wrong and how we are going to prevent from happening.
+<ul>
+<li>Schedule slips : A task could take longer than we expected. When it happens, we need to report immediately the estimated late time. It could happen often when there is not regular status meetings like plan-driven project.</li>
+<li>Defect rate is excessive : If the program has a lot of bugs in tests, we should pause writing codes and look at the code a little bit and clean up the bug.</li>
+<li>Requirements misunderstood : Regular meetings and frequent releases will help the misunderstanding between customers and developers.</li>
+<li>Requirement churn : To release an update, it requires adding new features and fixing bugs. Churn happens when the customer continues to change requirements while development is underway.</li>
+<li>Turnover : Best way to reduce turnover is to 1) give developers interesting work 2) have them work in pleasant enviroment 3) give them control over their own schedules.</li>
+</ul>
+All the risks are needed to address and find a way to avoid the risk. We can remove some feature from a release, stop work on new features and do a bug hunt, negotiate new features into a future release, which is called mitigation. Then, we should have a plan to handle identifiable risks.<br>
+</span>
+
+<span class="questions">
+<h2>Questions</h2>
+What are the general risks to look out for?<br><br>
+
+<b class="answer hidden">
+<ul>
+<li>Schedule slips</li>
+<li>Excessive defect rate</li>
+<li>Misunderstanding the requirements</li>
+<li>Changing the requirements regularly</li>
+<li>Turnover</li>
+</ul>
+</b>
+</span>
+
+<span class="references">
+<h2>References</h2>
+How are new requirements dealt with? (Pg: 32)<br><br>
+
+The new requirements are reviewed/examined by a change control board(CCB). They decide whether to add a new requirement to the list of things to be implemented.<br><br>
+
+What some good ways to deal with turnover? (Pg: 32)<br><br>
+
+If a developer leaves, the overload of work should be equally divided amongst everyone on the team. Principles like <i>common code ownership</i> and <i>paired programming</i> help divide that work efficiently.<br>
+</span>
+
+<h1 id="3.4">3.4: Resource Requirements</h1>
+
+<span class="summary">
+<h2>Summary</h2>
+(pg 33)<br><br>
+
+Resource Requirements are a simple part of management where you identify the whats, whens and wheres of the resources of the project. It includes Workstations, people, software, hardware and more.<br>
+</span>
+
+<h1 id="3.5">3.5: Task Estimates</h1>
+
+<span class="summary">
+<h2>Summary</h2>
+(pg 33)<br><br>
+
+The first steps towards a schedule is seeing what you'll be doing and figuring out how long each step will take. Task estimates are just that, estimates. It is impossible to know exactly how long a specific task will take and how accurate the developers prediction is largely based off of experience. The bigger the task the harder it is to know so it is better to breat down tasks that are estimated to take about a week or shorter. Then you can add them together and start doing larger estimates. "The estimation mantra is: size first, then effort and cost estimates, finally schedule."(pg 33) "Managers should never do development estimates. Even if a manager has been a developer in the past, unless they're deeply involved in the actual development work, they shouldn't be in the business of doing development estimates."(pg 34)<br>
+</span>
+
+<span class="questions">
+<h2>Questions</h2>
+What is NOT a variable in the estimation mantra? (pg.33)
+<ul>
+<li class="answer wrong">Effort and Costs</li>
+<li class="answer wrong">Program Size</li>
+<li class="answer right">Program Quality</li>
+<li class="answer wrong">Schedule</li>
+</ul>
+
+What is the Delphi estimation technique? (short answer) (pg.33)<br><br>
+
+<b class="answer hidden">
+Give a developer work to do, after they have some time to consider the solution ask them for 3 numbers. These 3 numbers represent:
+<ol>
+<li>The minimum amount of time it will take to complete</li>
+<li>The maximum amount of time it will take to complete</li>
+<li>The normal amount of time it will take to complete</li>
+</ol>
+</b>
+</span>
+
+<span class="references">
+<h2>References</h2>
+Delphi estimation technique: pg. 33 (last 2 paragraphs)
+<ol>
+<li>The minimum amount of time it will take to complete</li>
+<li>The maximum amount of time it will take to complete</li>
+<li>The normal amount of time it will take to complete</li>
+</ol>
+</span>
+
+<h1 id="3.6">3.6: Project Schedule</h1>
+
+<span class="summary">
+<h2>Summary</h2>
+(pg 34-35)<br><br>
+
+Once you have the task estimates you can create a schedule. Important things to think about when making a cycle include the dependencies between tasks, your duty cycle, inclusion of sickdays and vacations, as well as the inability to schedule a developer to work on two tasks at once. It is also usedful to use project-scheduling software to make the schedule. It allows for greater organisation, especially for larger projects. Spolsky's Painless Schedule (pg 35) lists the following that should be in every schedule:
+<ul>
+<li>Feature name</li>
+<li>Tasks within the feature</li>
+<li>The Priority of the task</li>
+<li>The Original Estimate (in person hours)</li>
+<li>The Current Estimate (in person-hours)</li>
+<li>The Elapsed Time worked on the task (in person-hours)</li>
+<li>The Remaining Time on the task (also in person-hours)</li>
+</ul>
+</span>
+
+<span class="questions">
+<h2>Questions</h2>
+What is a duty cycle? (Short Answer) (pg.35)<br><br>
+
+<b class="answer hidden">Answer should say something along the lines of:<br><br>
+"The amount of person hours (per day) a developer actually spends developing software"</b><br><br>
+
+How many items are in Spolsky's Painless schedule? (pg.35)
+<ul>
+<li class="answer wrong">7</li>
+<li class="answer wrong">5</li>
+<li class="answer wrong">11</li>
+<li class="answer right">9</li>
+</ul>
+</span>
+
+<span class="references">
+<h2>References</h2>
+Project Schedule (pg. 34)<br><br>
+
+Once you have time estimates for an iteration, you can create a schedule. 4 items (below) state what you should consider while creating the schedule.
+<ul>
+<li>Have developers state the dependencies between tasks. Some can't start until other dependencies finish.</li>
+<li>Find out what the duty cycle is.</li>
+<li>Consider weekends, vacations, sick days, training, etc.</li>
+<li>One developer can only one task at a time.</li>
+</ul>
+
+
+Spolsky's Painless Schedule (pg. 35)
+
+<ul>
+<li>Feature name</li>
+<li>Future tasks</li>
+<li>The priority of the task</li>
+<li>The original estimate in person hours</li>
+<li>The current estimate in person hours</li>
+<li>The elapsed time in person hours</li>
+<li>The remaining time in person hours</li>
+</ul>
+</span>
+
+<h1 id="3.7">3.7: Velocity</h1>
+
+<span class="summary">
+<h2>Summary</h2>
+(pg 35)<br><br>
+
+The Velocity of a task can also prove useful when creating a schedule. The velocity is defined as the estimated effort of a task, divided by the actual effort. If you overestimate your task, your velocity will be greater than one (your task took less time than you originally thought); if you underestimate, it will be less than one (the task took you longer than you originally thought). Ideally, velocity should be 1.0, but that hardly ever happens. Velocity can be used to give both the manager and the developers an idea of how accurate their predictions are.<br>
+</span>
+
+<span class="questions">
+<h2>Questions</h2>
+What is the ideal velocity of a project? (pg.35)
+<ul>
+<li class="answer wrong">0</li>
+<li class="answer wrong">2.0</li>
+<li class="answer right">1.0</li>
+<li class="answer wrong">0.5</li>
+</ul>
+
+True or false, the ideal velocity is commonly achieved? # (pg.36)
+<ul>
+<li class="answer right">False</li>
+<li class="answer wrong">True</li>
+</ul>
+</span>
+
+<span class="references">
+<h2>References</h2>
+Velocity (pgs. 35-36)
+<ul>
+<li>Allows managers and developers to have an idea of how accurate their estimates were. This allows for schedule improvement. PG.35-36</li>
+</ul>
+</span>
+
+<h1 id="3.8">3.8: Project Oversight</h1>
+
+<span class="summary">
+<h2>Summary</h2>
+Project oversight is the part of project management that happens during the programming portion of a project. It includes meetings to discuss the current architure, design and code of the project, as well as management of the schedule, developers, process, and the manager themselves. How it is handled is part of the agreed upon project process.<br><br>
+The manager also has to keep the developers happy and motivated, mainly by avoiding things like motivating through fear, treating the developers as resources, or allowing the developers to get caught up in distractions outside the realm of writing the program.<br>
+</span>
+
+<h1 id="3.9">3.9: Status Reviews and Presentations</h1>
+
+<span class="summary">
+<h2>Summary</h2>
+Status reviews are a part of every project, though larger projects have more formal ones. It is important to be honest and direct about your current progress and expected progress before the next review, as well as any problems you've run into. Avoid the temptation to just say what management wants to hear, because that leads to problems later.<br><br>
+When giving a presentation, design it around the knowledge level of the audience and the purpose of the presentation. When using PowerPoint, keep the presentations short and to the point, and keep the slides barebones and the bullet points brief and not full sentences.<br>
+</span>
+
+<h1 id="3.10">3.10: Defects</h1>
+
+<span class="summary">
+<h2>Summary</h2>
+Developers should try to minimize the amount of defects they introduce into their code. Despite this, defects will inevitably find their way into code, so developers should also try to find as many of the defects in code as possible before releasing it. The found defects can be referenced in a defect tracking system, which tracks current known defects and their severity. For example, one possible set of levels of severity is:
+<ol>
+<li>Fatal: Crashes or non-functioning vital features</li>
+<li>Severe: Non-functioning major features</li>
+<li>Serious: Non-functioning major features with work-arounds</li>
+<li>Annoying: Defect or error that may annoy the user, but doesn't affect functionality</li>
+<li>New Feature Request: A request for a new feature (not a defect)</li>
+</ol>
+When fixing defects, developers should start with the highest severity ones. Developers should never release a product with Fatal or Severe defects in it, and in most cases should also remove Serious defects.<br>
+</span>
+
+<span class="questions">
+<h2>Questions</h2>
+if you don't know what the defect is how would you make a defect tracking system if you don't know what your tracking?<br><br>
+
+<b class="answer hidden">you have to wait till the program is being used and a defect happen in order to track similar defects.</b>
+</span>
+
+<span class="references">
+<h2>References</h2>
+Defect levels(pg 37)
+<ol>
+<li>fatal: the program crashes</li>
+<li>severe: A major piece of the project don't work</li>
+<li>serious: A little piece of the project don't work but you can get around it</li>
+<li>Annoying: minor defect or error but not a big problem.</li>
+<li>new features: you have to add something new to your project.</li>
+</ol>
+the first 3 levels should be caught before the program is released  
+</span>
+
+<h1 id="3.11">3.11: The Retrospective</h1>
+
+<span class="summary">
+<h2>Summary</h2>
+Retrospectives are done after completing some goal, whether a project or major iteration under a plan-driven process, or an iteration, such as a sprint, under an agile process. During retrospectives, questions are asked about the developers' experience completing the goal, such as:
+<ol>
+<li>What went right? Did things go as expected, and did we implement all the features the customer wanted?</li>
+<li>What went wrong? How many defects did we need to deal with, and how much overtime did we need to finish on time?</li>
+<li>What process issues came up? Which aspects of our planned process were problematic or infeasable in practice?</li>
+<li>What do we need to fix for next time? Given our answers to the previous questions, what do we need to fix in our process, work habits, or environment for the next project?</li>
+<li>Who's responsible for the fixes? Who should be in charge of making sure we follow our modified process?</li>
+</ol>
+</span>
+
+<span class="questions">
+<h2>Questions</h2>
+1.  what is the importance of the Retrospective part of the project?<br><br>
+
+<b class="answer hidden">the importance of the Retrospective part of the project is that you get to see what you did wrong and what you didn't right also get to take a look at how you team did overall. you get to take a bird's-eyes view</b>
+</span>
+
+<span class="references">
+<h2>References</h2>
+The Retrospective(pg 38)
+<ol>
+<li>what went right/wrong? did it go as plan</li>
+<li>how many defects did it take longer then expected.</li>
+<li>did you follow the process, if not why</li>
+<li>what can you/the team improve on for next project.</li>
+<li>who should fix the problems if there was any.</li>
+</ol>
+</span>
+
+<h1 id="3.12">3.12: Conclusion</h1>
+
+<span class="summary">
+<h2>Summary</h2>
+The developers should own the process and management should be supportive, listen to the developers (especially when it comes to schedules and estimates), and seperate the developers from distractions outside their roles.<br>
+</span>
 
 </body>
 </html>
