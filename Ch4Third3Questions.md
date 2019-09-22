@@ -7,7 +7,7 @@
 
 Answer: True
 
-## 2. Descibe SMART Tasks. p.47
+## 2. Descibe Tasks. p.47
 	implementalbe user stories with certain goals which are easy to estimate with effort requiring a relatively short amount of time.
 
 ## 3. The goal of time-boxed is to 	p.48
@@ -24,7 +24,7 @@ Answer: a
 	(c) Loan terms are of finite length but the length of the loan will vary by the type of loan.
 	(d) The user must be able to select a loan term using a drop-down list box.
 
-Answer: c
+Answer: a(partially) and c
 
 ## 5. Two ways to overcome problems of understandings are 	p.49
 	1. Having someone in the middle who has lived in both worlds and who can translate between the two.
