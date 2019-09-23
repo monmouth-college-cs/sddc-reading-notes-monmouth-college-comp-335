@@ -25,7 +25,7 @@ The open issues section includes:
 
 ### Design and New Feature Ideas
 
-What are two positives of Backlogs?
+What are three positives of Backlogs?
 
      	 Answers:
     	 1) lets the customer know you haven't forgotten about those features.
