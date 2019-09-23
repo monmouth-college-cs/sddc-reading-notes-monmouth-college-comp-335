@@ -1,5 +1,7 @@
 #Requirements
 
+##Questions
+
 Which of the following is not a benefit of requirements? (pg. 39)
 1. Helps you make fewer errors
 2. Helps you implement the program
@@ -9,6 +11,8 @@ Which of the following is not a benefit of requirements? (pg. 39)
 The answer is two.
 
 #What Types of Requirements Are We Talking About?
+
+##Questions
 
 What are functional requirements? (pg. 39)
 1. The number of functions in the program
@@ -24,9 +28,13 @@ Which of these is not a type of functional requirement? (pg. 39)
 
 The answer is one.
 
+##References
+
 Types of Functional Requirements: pg. 40-41
 
 #User Requirements
+
+##Questions
 
 Which of the following is not a trait of user requirements? (pg. 40)
 1. They include descriptions of screen layouts and dialog boxes
@@ -45,6 +53,8 @@ The answer is two.
 
 #Non-Functional Requirements
 
+##Questions
+
 Which of the following is not an example of a non-functional requirement? (pg. 40)
 1. Memory usage requirements
 2. Security requirements
@@ -55,6 +65,8 @@ The answer is three.
 #Non-Requirements
 
 #Requirements Gathering in a Plan-Driven Project
+
+##Questions
 
 Which of the following describes the internal implementation details of a program? (pg. 41)
 1. Domain specification
@@ -71,6 +83,8 @@ The answer is one.
 
 #But I Don't Like Writing!
 
+##Questions
+
 Which of the following isn't a reason you should always write functional requirements in natural language? (pg. 41-42)
 1. Because it will make you better at talking to customers and coworkers
 2. Because the language you use determines what kinds of thoughts you are able to have
@@ -80,9 +94,13 @@ The answer is one.
 
 #Outline of a Functional Specification
 
+##References
+
 Outline of a Functional Specification: pg. 42-43
 
 #Overview
+
+##Questions
 
 How long should the overview in a functional specification be? (pg. 42)
 1. 1-3 sentences
@@ -93,6 +111,8 @@ The answer is two.
 
 #Disclaimer
 
+##Questions
+
 At some point the disclaimer should change to say that the specification is finished. (pg. 42)
 1. True
 2. False
@@ -100,6 +120,8 @@ At some point the disclaimer should change to say that the specification is fini
 The answer is one.
 
 #Author's Name
+
+##Questions
 
 Who should be responsible for the functional specification? (pg. 42)
 1. One person
