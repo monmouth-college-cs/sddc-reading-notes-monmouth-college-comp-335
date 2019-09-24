@@ -33,7 +33,7 @@ There are certain things the final product will not be able to do. The programme
 
 We are only concerned about the *functional requirements* during this phase of planning. Those requirements are just the things that the user will experience, written down in simple layman's terms. 
 
-### But do you like writing? (Pg : 41)
+### But you don't like writing, you say? (Pg : 41)
 
 The Sapir-Whorf linguistic relativity hypothesis, when roughly paraphrased, says that our ability to think and express those thoughts is limited by the language that we use. Using more expressive language can boost the effectiveness of figuring the requirements. That means it is highly recommended that the programmers write things down in regular, more expressive language before using the computer languages to implement the coding process.
 
@@ -41,7 +41,7 @@ The Sapir-Whorf linguistic relativity hypothesis, when roughly paraphrased, says
 
 Different projects have different specifications. The elements of functional specifications are:
 
-1. Outline
+1. Overview
 2. Disclaimer
 3. Author's name
 4. Scenarios of typical usage
