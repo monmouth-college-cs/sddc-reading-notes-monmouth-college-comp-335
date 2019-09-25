@@ -114,20 +114,10 @@ window.onload = function() {
   <a href="#4.27">4.27: Testable</a>
   <a href="#4.28">4.28: Product Backlog</a>
   <a href="#4.29">4.29: SMART Tasks</a>
-  <a href="#4.30">4.30: Specific</a>
-  <a href="#4.31">4.31: Measurable</a>
-  <a href="#4.32">4.32: Achievable</a>
-  <a href="#4.33">4.33: Relevant</a>
   <a href="#4.34">4.34: Time-Boxed</a>
-  <a href="#4.35">4.35: Sprint/Iteration Backlog</a>
   <a href="#4.36">4.36: Requirements Digging</a>
-  <a href="#4.37">4.37: Why Requirements Digging Is Hard</a>
-  <a href="#4.38">4.38: Problems of Scope</a>
   <a href="#4.39">4.39: Problems of Understanding</a>
-  <a href="#4.40">4.40: Problems of Volatility</a>
-  <a href="#4.41">4.41: Non-Technical Problems</a>
   <a href="#4.42">4.42: Analyzing the Requirements</a>
-  <a href="#4.43">4.43: Conclusion</a>
 
 Display:
 <input type="checkbox" onclick="setClassDisplay('summary',this.checked)" checked>Summaries
@@ -925,1180 +915,476 @@ The Retrospective(pg 38)
 The developers should own the process and management should be supportive, listen to the developers (especially when it comes to schedules and estimates), and seperate the developers from distractions outside their roles.<br>
 </span>
 
-<h1 id="4">4: Requirements</h1>
+<h1 id="4">4: Requirements (Pg: 39)</h1>
 
 <span class="summary">
 <h2>Summary</h2>
+As programmers, we are more inclined to just start writing code and fix the problems on the go. That practice is not very productive and can lead to a lot of trouble in the grand scheme of a project. To avoid such problems, a programmer needs to determine a set of requirements before they start working on the actual code. 
 
+<h2>Summary of Pages 47-51</h2>
+chapter 4 is a interesting chapter it talked about requirements, and it was in three parts, requirements, requirement Digging, and analyzing the requirements. on pages 47-49 it listed out a few requirements for example measurable it being able to understand what needs to be done and be able to understand how long it would take to complete that program. also chapter 4 on pages 49-50 it talked about requirements digging or requirements elicitation, which is being able to get a user to tell you what they want. and being able to know that requirements hat customer don't know that want yet.
+one requirements elicitation is problems of scope which is being able to know what a customer want and make sure it can be done in the time limit required. the last part is analyzing the requirement which is taking the time to see if the requirements are really needed and is it consistent with the overall projects objective.
 </span>
 
 <span class="questions">
 <h2>Questions</h2>
-
+Which of the following is not a benefit of requirements? (pg. 39)
 <ol>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
+<li class="answer wrong">Helps you make fewer errors</li>
+<li class="answer right">Helps you implement the program</li>
+<li class="answer wrong">Helps you come up with a good design</li>
+<li class="answer wrong"> Helps you listen to the users</li>
+</ol>
+</span>
+
+<h1 id="4.1">4.1: What Types of Requirements Are We Talking About? (Pg: 39)</h1>
+
+<span class="summary">
+<h2>Summary</h2>
+We care about <em>functional requirements</em>. They are the features that a user will experience when using the product. There are four types of those requirements:
+<ol>
+<li>User Requirements</li>
+<li>Domain Requirements</li>
+<li>Non-functional Requirements</li>
+<li>Non-requirements</li>
+</ol>
+</span>
+
+<span class="questions">
+<h2>Questions</h2>
+What are functional requirements? (pg. 39)
+<ol>
+<li class="answer wrong">The number of functions in the program</li>
+<li class="answer wrong">The required efficiency level of the program</li>
+<li class="answer right">The features users can see and use</li>
 </ol>
 
-
+Which of these is not a type of functional requirement? (pg. 39)
 <ol>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-</ol>
-
-
-<ol>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
+<li class="answer right">Developer Requirements</li>
+<li class="answer wrong">Domain Requirements</li>
+<li class="answer wrong">User Requirements</li>
 </ol>
 </span>
 
 <span class="references">
 <h2>References</h2>
-
+Types of Functional Requirements: pg. 40-41
 </span>
 
-<h1 id="4.1">4.1: What Types of Requirements Are We Talking About?</h1>
+<h1 id="4.2">4.2: User Requirements (Pg: 40)</h1>
 
 <span class="summary">
 <h2>Summary</h2>
-
+Always written in natural language; things that a user expects to see in their screen. This would include things like the descriptions of screen layouts, dialog boxes, and menus. Creating scenarios is helpful. Use visuals (pictures, mock-up webpages) to better understand and discuss the requirements.
 </span>
 
 <span class="questions">
 <h2>Questions</h2>
-
+Which of the following is not a trait of user requirements? (pg. 40)
 <ol>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
+<li class="answer wrong">They include descriptions of screen layouts and dialog boxes</li>
+<li class="answer wrong">They're nearly always expressed in natural language</li>
+<li class="answer right">They always include a number of statistics</li>
+</ol>
+</span>
+
+<h1 id="4.3">4.3: Domain Requirements (Pg: 40)</h1>
+
+<span class="summary">
+<h2>Summary</h2>
+These are more like guidelines for the design of your product based on the industry you are working in. These are usually set universally and the programmer doesn't necessarily need to write them down. They just need to refer to them in order to remain in the set guidelines. Users would be not be concerned with these requirements as long as the user experience is not affected.
+</span>
+
+<span class="questions">
+<h2>Questions</h2>
+Developers must write down all the domain requirements for projects. (pg. 40)
+<ol>
+<li class="answer wrong">True</li>
+<li class="answer right">False</li>
+</ol>
+</span>
+
+<h1 id="4.4">4.4: Non-Functional Requirements (Pg: 40)</h1>
+
+<span class="summary">
+<h2>Summary</h2>
+These are the constraints that the programmer has to work within. Some of the examples would include target platform specifications, timing constraints, performance requirements, memory usage requirements etc. They do affect the user experience but are not visible to the user.
+</span>
+
+<span class="questions">
+<h2>Questions</h2>
+Which of the following is not an example of a non-functional requirement? (pg. 40)
+<ol>
+<li class="answer wrong">Memory usage requirements</li>
+<li class="answer wrong">Security requirements</li>
+<li class="answer right">Screen layout requirements</li>
+</ol>
+</span>
+
+<h1 id="4.5">4.5: Non-Requirements (Pg: 41)</h1>
+
+<span class="summary">
+<h2>Summary</h2>
+There are certain things the final product will not be able to do. The programmer needs to communicate these things to the client so they can manage their expectations. 
+</span>
+
+<h1 id="4.6">4.6: Requirements Gathering in a Plan-Driven Project (Pg: 41)</h1>
+
+<span class="summary">
+<h2>Summary</h2>
+We are only concerned about the <em>functional requirements</em> during this phase of planning. Those requirements are just the things that the user will experience, written down in simple layman's terms. 
+</span>
+
+<span class="questions">
+<h2>Questions</h2>
+Which of the following describes the internal implementation details of a program? (pg. 41)
+<ol>
+<li class="answer wrong">Domain specification</li>
+<li class="answer right">Technical specification</li>
+<li class="answer wrong">Functional specification</li>
 </ol>
 
-
+Agile methodologies include writing down functional requirements. (pg. 41)
 <ol>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
+<li class="answer right">True</li>
+<li class="answer wrong">False</li>
 </ol>
+</span>
 
+<h1 id="4.7">4.7: But I Don't Like Writing! (Pg: 41)</h1>
 
+<span class="summary">
+<h2>Summary</h2>
+The Sapir-Whorf linguistic relativity hypothesis, when roughly paraphrased, says that our ability to think and express those thoughts is limited by the language that we use. Using more expressive language can boost the effectiveness of figuring the requirements. That means it is highly recommended that the programmers write things down in regular, more expressive language before using the computer languages to implement the coding process.
+</span>
+
+<span class="questions">
+<h2>Questions</h2>
+Which of the following isn't a reason you should always write functional requirements in natural language? (pg. 41-42)
 <ol>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
+<li class="answer right">Because it will make you better at talking to customers and coworkers</li>
+<li class="answer wrong">Because the language you use determines what kinds of thoughts you are able to have</li>
+<li class="answer wrong">To avoid getting bogged down in the syntactic and semantic details of a programming language before you need to</li>
+</ol>
+</span>
+
+<h1 id="4.8">4.8: Outline of a Functional Specification (Pg: 42)</h1>
+
+<span class="summary">
+<h2>Summary</h2>
+Different projects have different specifications. The elements of functional specifications are:
+<ol>
+<li>Overview</li>
+<li>Disclaimer</li>
+<li>Author's name</li>
+<li>Scenarios of typical usage</li>
+<li>Open Issues</li>
 </ol>
 </span>
 
 <span class="references">
 <h2>References</h2>
-
+Outline of a Functional Specification: pg. 42-43
 </span>
 
-<h1 id="4.2">4.2: User Requirements</h1>
+<h1 id="4.9">4.9: Overview (Pg: 42)</h1>
 
 <span class="summary">
 <h2>Summary</h2>
-
+This is the executive summary of the product. It briefly explains what the program is supposed to do.
 </span>
 
 <span class="questions">
 <h2>Questions</h2>
-
+How long should the overview in a functional specification be? (pg. 42)
 <ol>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-</ol>
-
-
-<ol>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-</ol>
-
-
-<ol>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
+<li class="answer wrong">1-3 sentences</li>
+<li class="answer right">1-2 paragraphs</li>
+<li class="answer wrong">1 page</li>
 </ol>
 </span>
 
-<span class="references">
-<h2>References</h2>
-
-</span>
-
-<h1 id="4.3">4.3: Domain Requirements</h1>
+<h1 id="4.10">4.10: Disclaimer (Pg: 42)</h1>
 
 <span class="summary">
 <h2>Summary</h2>
-
+Make sure to violently declare that things are not finalized in the planning phase and if somebody believes something is wrong/missing, it can be fixed using proper communication.
 </span>
 
 <span class="questions">
 <h2>Questions</h2>
-
+At some point the disclaimer should change to say that the specification is finished. (pg. 42)
 <ol>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-</ol>
-
-
-<ol>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-</ol>
-
-
-<ol>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
+<li class="answer right">True</li>
+<li class="answer wrong">False</li>
 </ol>
 </span>
 
-<span class="references">
-<h2>References</h2>
-
-</span>
-
-<h1 id="4.4">4.4: Non-Functional Requirements</h1>
+<h1 id="4.11">4.11: Author's Name (Pg: 42 - 43)</h1>
 
 <span class="summary">
 <h2>Summary</h2>
-
+It is usually either the Development Manager or the Project Manager, based on how the organization operates. There are pros and cons to both of them. Ideally, the author should be able to understand the technical aspects well enough to write proper specifications meanwhile also having good people skills to be able to get the stakeholders on board with everything.
 </span>
 
 <span class="questions">
 <h2>Questions</h2>
-
+Who should be responsible for the functional specification? (pg. 42)
 <ol>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-</ol>
-
-
-<ol>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-</ol>
-
-
-<ol>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
+<li class="answer right">One person</li>
+<li class="answer wrong">The development team</li>
+<li class="answer wrong">A project manager</li>
 </ol>
 </span>
 
-<span class="references">
-<h2>References</h2>
-
-</span>
-
-<h1 id="4.5">4.5: Non-Requirements</h1>
+<h1 id="4.12">4.12: Scenarios of Typical Usage (Pg.43)</h1>
 
 <span class="summary">
 <h2>Summary</h2>
-
+These are the requirements of the project. You can show a programs typical usage to get customers because you can present several scenarios of typical usage as part of the specifications.
 </span>
 
 <span class="questions">
 <h2>Questions</h2>
-
-<ol>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-</ol>
-
-
-<ol>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-</ol>
-
-
-<ol>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
+Scenarios of Typical Usage are an effective way of identifying requirements because?:
+<ol type="a">
+<li class="answer right">If you write the scenarios as if they're user stories, the customer is more likely to read them.</li>
+<li class="answer right">Customers are more likely to understand what you're doing and come up with ideas for things you've missed or gotten wrong.
+</li>
+<li class="answer wrong">It allows for the customer to see low level requirements.</li>
+<li class="answer wrong">They help the developers identify which requirements they want.</li>
+<li class="answer wrong">Scenarios do not help identify requirements.</li>
 </ol>
 </span>
 
-<span class="references">
-<h2>References</h2>
-
-</span>
-
-<h1 id="4.6">4.6: Requirements Gathering in a Plan-Driven Project</h1>
+<h1 id="4.13">4.13: Open Issues (Pg.43)</h1>
 
 <span class="summary">
 <h2>Summary</h2>
-
+There will be a few unknown things during the write-up of the functional specification. Create an issue and leave it open as the project progresses. Each time the customer is met with, try to get the answers to these open issues.
 </span>
 
 <span class="questions">
 <h2>Questions</h2>
-
-<ol>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-</ol>
-
-
-<ol>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-</ol>
-
-
-<ol>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
+The open issues section includes:
+<ol type="a">
+<li class="answer wrong">unknowns from the user requirements</li>
+<li class="answer right">unknowns from the functional specifications</li>
+<li class="answer wrong">unknowns from the technical specifications</li>
 </ol>
 </span>
 
-<span class="references">
-<h2>References</h2>
-
-</span>
-
-<h1 id="4.7">4.7: But I Don't Like Writing!</h1>
+<h1 id="4.14">4.14: Design and New Feature Ideas (Pg. 43-44)</h1>
 
 <span class="summary">
 <h2>Summary</h2>
-
+Project managers and developers create two different types of notes. These types of notes are technical notes containing design or coding ideas for developers. An example of these notes can consist of a backlog: A set of notes containing requirements that are to be implemented on the next release.
 </span>
 
 <span class="questions">
 <h2>Questions</h2>
-
+What are three positives of Backlogs?
+<b class="answer hidden">
 <ol>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
+<li>lets the customer know you haven't forgotten about those features.</li>
+<li>lets the customer know that by moving these features to the next release you are committed to delivering the current release as close to the published schedule as possible.</li>
+<li>it tells the developers that you're not out of control and that the project has a good shot at being done with high quality and on time.</li>
 </ol>
-
-
-<ol>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-</ol>
-
-
-<ol>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-</ol>
+</b>
 </span>
 
-<span class="references">
-<h2>References</h2>
-
-</span>
-
-<h1 id="4.8">4.8: Outline of a Functional Specification</h1>
+<h1 id="4.15">4.15: One More Thing (pg.44)</h1>
 
 <span class="summary">
 <h2>Summary</h2>
-
+Don't spend all of you're time obsessing about making sure every functional specification is correct. Chances are the customer will add additional requirements anyway. Also functional specifications are only considered complete after ship and release, so once again don't obsess.
 </span>
 
 <span class="questions">
 <h2>Questions</h2>
-
-<ol>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-</ol>
-
-
-<ol>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-</ol>
-
-
-<ol>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-</ol>
+When is the only time a functional specification is complete?<br><br>
+<b class="answer hidden">When you ship the release.<br></b>
 </span>
 
-<span class="references">
-<h2>References</h2>
-
-</span>
-
-<h1 id="4.9">4.9: Overview</h1>
+<h1 id="4.16">4.16: Requirements Gathering in an Agile Project (pg.44)</h1>
 
 <span class="summary">
 <h2>Summary</h2>
+There is no functional specification in an agile development project. This is because developers of an agile team recognize that requirements will change over the course of a project and embrace that.  There is no need to gather requirements because an agile development team contains the customer as part of the team. That way there is room for immediate feedback, and timely updates on requirements.
+</span>
 
+<h1 id="4.17">4.17: The Three Cs (pg.44)</h1>
+
+<span class="summary">
+<h2>Summary</h2>
+A user story has 3 fundamental components: the card, the conversation, and the confirmation.
+</span>
+
+<h1 id="4.18">4.18: Card (pg.45)</h1>
+<span class="summary">
+<h2>Summary</h2>
+A piece of paper, index card etc. Any physical thing in which the user story is written on. This acts as an invitation to a collaborative conversation about what the story really is and wants.
 </span>
 
 <span class="questions">
 <h2>Questions</h2>
-
-<ol>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-</ol>
-
-
-<ol>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-</ol>
-
-
-<ol>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
+A card is usually a detailed story?:
+<ol type="a">
+<li class="answer wrong">True</li>
+<li class="answer right">False</li>
 </ol>
 </span>
 
-<span class="references">
-<h2>References</h2>
-
-</span>
-
-<h1 id="4.10">4.10: Disclaimer</h1>
+<h1 id="4.19">4.19: Conversation (pg.45)</h1>
 
 <span class="summary">
 <h2>Summary</h2>
-
+Takes place between important stakeholders in the project. This conversation essentially covers material that the owner really wants to see in the story. This can include revisions to the story, time estimates, and more details about the story.
 </span>
 
 <span class="questions">
 <h2>Questions</h2>
-
-<ol>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-</ol>
-
-
-<ol>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-</ol>
-
-
-<ol>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
+The conversation about a user story takes place between all the important stakeholders in the project?:
+<ol type="a">
+<li class="answer right">True</li>
+<li class="answer wrong">False</li>
 </ol>
 </span>
 
-<span class="references">
-<h2>References</h2>
-
-</span>
-
-<h1 id="4.11">4.11: Author's Name</h1>
+<h1 id="4.20">4.20: Confirmation (pg.45)</h1>
 
 <span class="summary">
 <h2>Summary</h2>
-
+The last component of the user story. The product owner provides this as the final form of acceptance criteria for the story. Typically very simple and written on the back of the card as bullet points.
 </span>
 
 <span class="questions">
 <h2>Questions</h2>
-
-<ol>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-</ol>
-
-
-<ol>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-</ol>
-
-
-<ol>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
+What format are the acceptance criteria usually written in?:
+<ol type="a">
+<li class="answer wrong">Paragraph</li>
+<li class="answer right">Bullet list</li>
+<li class="answer wrong">Ordered list</li>
+<li class="answer wrong">Markdown</li>
 </ol>
 </span>
 
-<span class="references">
-<h2>References</h2>
-
-</span>
-
-<h1 id="4.12">4.12: Scenarios of Typical Usage</h1>
+<h1 id="4.21">4.21: INVEST in Stories (pg.45)</h1>
 
 <span class="summary">
 <h2>Summary</h2>
-
+The previous 3 components of a user story tell us about the system. The acronym INVEST refers to the quality of the story.
 </span>
 
 <span class="questions">
 <h2>Questions</h2>
-
-<ol>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-</ol>
-
-
-<ol>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-</ol>
-
-
-<ol>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-</ol>
+What does the acronym INVEST stand for?:<br><br>
+<b class="answer hidden">
+I - Independent<br>
+N - Negotiable<br>
+V - Valuable<br>
+E - Estimable<br>
+S - Small<br>
+T - Testable<br>
+</b>
 </span>
 
-<span class="references">
-<h2>References</h2>
-
-</span>
-
-<h1 id="4.13">4.13: Open Issues</h1>
+<h1 id="4.22">4.22: Independent (pg.45)</h1>
 
 <span class="summary">
 <h2>Summary</h2>
-
+Each user story should be independent of each other. That way a single user story can be scheduled and implemented separately from any other user story. This can be important based on which agile process a team is using.
 </span>
 
 <span class="questions">
 <h2>Questions</h2>
-
-<ol>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-</ol>
-
-
-<ol>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-</ol>
-
-
-<ol>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
+Stories should be dependent on each other?:
+<ol type="a">
+<li class="answer wrong">True</li>
+<li class="answer right">False</li>
 </ol>
 </span>
 
-<span class="references">
-<h2>References</h2>
-
-</span>
-
-<h1 id="4.14">4.14: Design and New Feature Ideas</h1>
+<h1 id="4.23">4.23: Negotiable (pg.46)</h1>
 
 <span class="summary">
 <h2>Summary</h2>
-
+A good story has room for negotiation among the parties involved. This should leave the developer and owner room to create an unique and workable implementation.
 </span>
 
 <span class="questions">
 <h2>Questions</h2>
-
-<ol>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-</ol>
-
-
-<ol>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-</ol>
-
-
-<ol>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
+The story is specific that reads like a contract?:
+<ol type="a">
+<li class="answer wrong">True</li>
+<li class="answer right">False</li>
 </ol>
 </span>
 
-<span class="references">
-<h2>References</h2>
-
-</span>
-
-<h1 id="4.15">4.15: One More Thing</h1>
+<h1 id="4.24">4.24: Valuable (pg.46)</h1>
 
 <span class="summary">
 <h2>Summary</h2>
-
+A good user story must have some kind of value to the customer. It must describe a feature or service that will be implemented in the product before the iteration is complete. Also, if a teams user story is too long, they should separate them into two smaller stories to be implemented in two different iterations.
 </span>
 
 <span class="questions">
 <h2>Questions</h2>
-
-<ol>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-</ol>
-
-
-<ol>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-</ol>
-
-
-<ol>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-</ol>
+Should splitting stories be based on value to the customer or technology?:<br><br>
+<b class="answer hidden">Value to the customer.<br></b>
 </span>
 
-<span class="references">
-<h2>References</h2>
-
-</span>
-
-<h1 id="4.16">4.16: Requirements Gathering in an Agile Project</h1>
+<h1 id="4.25">4.25: Estimable (pg.46)</h1>
 
 <span class="summary">
 <h2>Summary</h2>
-
+Estimation is apart of the negotiation on the conversation. User stories must be able to be estimated because the product owner needs to be able to assign a relative priority to the story. Stories should not be too long, if so they might be subject to story splitting for a future iteration.
 </span>
 
 <span class="questions">
 <h2>Questions</h2>
-
-<ol>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-</ol>
-
-
-<ol>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-</ol>
-
-
-<ol>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
+How many person-hours ideally should a story be broken up into?:
+<ol type="a">
+<li class="answer wrong">2</li>
+<li class="answer right">8</li>
+<li class="answer wrong">16</li>
+<li class="answer wrong">20</li>
 </ol>
 </span>
 
-<span class="references">
-<h2>References</h2>
-
-</span>
-
-<h1 id="4.17">4.17: The Three Cs</h1>
+<h1 id="4.26">4.26: Small (pg.46)</h1>
 
 <span class="summary">
 <h2>Summary</h2>
-
+As stated a few times above, good user stories should be relatively small. This also helps increase the accuracy of the user story estimation. Rule of thumb: Should take no more than eight man-hours of work to complete.
 </span>
 
 <span class="questions">
 <h2>Questions</h2>
-
-<ol>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-</ol>
-
-
-<ol>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-</ol>
-
-
-<ol>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
+Good user stories should be small?:
+<ol type="a">
+<li class="answer right">True</li>
+<li class="answer wrong">False</li>
 </ol>
 </span>
 
-<span class="references">
-<h2>References</h2>
-
-</span>
-
-<h1 id="4.18">4.18: Card</h1>
+<h1 id="4.27">4.27: Testable (pg.46)</h1>
 
 <span class="summary">
 <h2>Summary</h2>
-
+User stories must be testable. This relates back to the idea of traceability where you should be able to trace a feature back through previous iterations designs, and requirements. This will confirm if the user story is correctly implemented.
 </span>
 
 <span class="questions">
 <h2>Questions</h2>
-
-<ol>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
+Who writes the acceptance criteria?
+<ol type="a">
+<li class="answer wrong">The developers</li>
+<li class="answer wrong">The stakeholders</li>
+<li class="answer wrong">The development manager</li>
+<li class="answer right">The product owner</li>
 </ol>
-
-
-<ol>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-</ol>
-
-
-<ol>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-</ol>
-</span>
-
-<span class="references">
-<h2>References</h2>
-
-</span>
-
-<h1 id="4.19">4.19: Conversation</h1>
-
-<span class="summary">
-<h2>Summary</h2>
-
-</span>
-
-<span class="questions">
-<h2>Questions</h2>
-
-<ol>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-</ol>
-
-
-<ol>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-</ol>
-
-
-<ol>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-</ol>
-</span>
-
-<span class="references">
-<h2>References</h2>
-
-</span>
-
-<h1 id="4.20">4.20: Confirmation</h1>
-
-<span class="summary">
-<h2>Summary</h2>
-
-</span>
-
-<span class="questions">
-<h2>Questions</h2>
-
-<ol>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-</ol>
-
-
-<ol>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-</ol>
-
-
-<ol>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-</ol>
-</span>
-
-<span class="references">
-<h2>References</h2>
-
-</span>
-
-<h1 id="4.21">4.21: INVEST in Stories</h1>
-
-<span class="summary">
-<h2>Summary</h2>
-
-</span>
-
-<span class="questions">
-<h2>Questions</h2>
-
-<ol>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-</ol>
-
-
-<ol>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-</ol>
-
-
-<ol>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-</ol>
-</span>
-
-<span class="references">
-<h2>References</h2>
-
-</span>
-
-<h1 id="4.22">4.22: Independent</h1>
-
-<span class="summary">
-<h2>Summary</h2>
-
-</span>
-
-<span class="questions">
-<h2>Questions</h2>
-
-<ol>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-</ol>
-
-
-<ol>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-</ol>
-
-
-<ol>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-</ol>
-</span>
-
-<span class="references">
-<h2>References</h2>
-
-</span>
-
-<h1 id="4.23">4.23: Negotiable</h1>
-
-<span class="summary">
-<h2>Summary</h2>
-
-</span>
-
-<span class="questions">
-<h2>Questions</h2>
-
-<ol>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-</ol>
-
-
-<ol>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-</ol>
-
-
-<ol>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-</ol>
-</span>
-
-<span class="references">
-<h2>References</h2>
-
-</span>
-
-<h1 id="4.24">4.24: Valuable</h1>
-
-<span class="summary">
-<h2>Summary</h2>
-
-</span>
-
-<span class="questions">
-<h2>Questions</h2>
-
-<ol>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-</ol>
-
-
-<ol>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-</ol>
-
-
-<ol>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-</ol>
-</span>
-
-<span class="references">
-<h2>References</h2>
-
-</span>
-
-<h1 id="4.25">4.25: Estimable</h1>
-
-<span class="summary">
-<h2>Summary</h2>
-
-</span>
-
-<span class="questions">
-<h2>Questions</h2>
-
-<ol>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-</ol>
-
-
-<ol>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-</ol>
-
-
-<ol>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-</ol>
-</span>
-
-<span class="references">
-<h2>References</h2>
-
-</span>
-
-<h1 id="4.26">4.26: Small</h1>
-
-<span class="summary">
-<h2>Summary</h2>
-
-</span>
-
-<span class="questions">
-<h2>Questions</h2>
-
-<ol>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-</ol>
-
-
-<ol>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-</ol>
-
-
-<ol>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-</ol>
-</span>
-
-<span class="references">
-<h2>References</h2>
-
-</span>
-
-<h1 id="4.27">4.27: Testable</h1>
-
-<span class="summary">
-<h2>Summary</h2>
-
-</span>
-
-<span class="questions">
-<h2>Questions</h2>
-
-<ol>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-</ol>
-
-
-<ol>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-</ol>
-
-
-<ol>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-</ol>
-</span>
-
-<span class="references">
-<h2>References</h2>
-
 </span>
 
 <h1 id="4.28">4.28: Product Backlog</h1>
@@ -2110,667 +1396,78 @@ The developers should own the process and management should be supportive, liste
 
 <span class="questions">
 <h2>Questions</h2>
-
-<ol>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-</ol>
-
-
-<ol>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-</ol>
-
-
-<ol>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-</ol>
-</span>
-
-<span class="references">
-<h2>References</h2>
-
+Project owner gets to decide the deadline and release date of the project. p.47
+<ul>
+<li class="answer right">True</li>
+<li class="answer wrong">False</li>
+</ul>
 </span>
 
 <h1 id="4.29">4.29: SMART Tasks</h1>
 
-<span class="summary">
-<h2>Summary</h2>
-
-</span>
-
 <span class="questions">
 <h2>Questions</h2>
-
-<ol>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-</ol>
-
-
-<ol>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-</ol>
-
-
-<ol>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-</ol>
-</span>
-
-<span class="references">
-<h2>References</h2>
-
-</span>
-
-<h1 id="4.30">4.30: Specific</h1>
-
-<span class="summary">
-<h2>Summary</h2>
-
-</span>
-
-<span class="questions">
-<h2>Questions</h2>
-
-<ol>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-</ol>
-
-
-<ol>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-</ol>
-
-
-<ol>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-</ol>
-</span>
-
-<span class="references">
-<h2>References</h2>
-
-</span>
-
-<h1 id="4.31">4.31: Measurable</h1>
-
-<span class="summary">
-<h2>Summary</h2>
-
-</span>
-
-<span class="questions">
-<h2>Questions</h2>
-
-<ol>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-</ol>
-
-
-<ol>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-</ol>
-
-
-<ol>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-</ol>
-</span>
-
-<span class="references">
-<h2>References</h2>
-
-</span>
-
-<h1 id="4.32">4.32: Achievable</h1>
-
-<span class="summary">
-<h2>Summary</h2>
-
-</span>
-
-<span class="questions">
-<h2>Questions</h2>
-
-<ol>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-</ol>
-
-
-<ol>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-</ol>
-
-
-<ol>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-</ol>
-</span>
-
-<span class="references">
-<h2>References</h2>
-
-</span>
-
-<h1 id="4.33">4.33: Relevant</h1>
-
-<span class="summary">
-<h2>Summary</h2>
-
-</span>
-
-<span class="questions">
-<h2>Questions</h2>
-
-<ol>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-</ol>
-
-
-<ol>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-</ol>
-
-
-<ol>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-</ol>
-</span>
-
-<span class="references">
-<h2>References</h2>
-
+Describe Tasks. p.47<br><br>
+<b class="answer hidden">Implementable user stories with certain goals which are easy to estimate with effort requiring a relatively short amount of time.<br></b>
 </span>
 
 <h1 id="4.34">4.34: Time-Boxed</h1>
 
-<span class="summary">
-<h2>Summary</h2>
-
-</span>
-
 <span class="questions">
 <h2>Questions</h2>
-
-<ol>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
+The goal of time-boxed is to: p.48
+<ol type="a">
+<li class="answer right">finish within the iteration</li>
+<li class="answer wrong">having fixed time schedule</li>
+<li class="answer wrong">overestimate the velocity</li>
+<li class="answer wrong">underestimate the velocity</li>
 </ol>
-
-
-<ol>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-</ol>
-
-
-<ol>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-</ol>
-</span>
-
-<span class="references">
-<h2>References</h2>
-
-</span>
-
-<h1 id="4.35">4.35: Sprint/Iteration Backlog</h1>
-
-<span class="summary">
-<h2>Summary</h2>
-
-</span>
-
-<span class="questions">
-<h2>Questions</h2>
-
-<ol>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-</ol>
-
-
-<ol>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-</ol>
-
-
-<ol>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-</ol>
-</span>
-
-<span class="references">
-<h2>References</h2>
-
 </span>
 
 <h1 id="4.36">4.36: Requirements Digging</h1>
 
-<span class="summary">
-<h2>Summary</h2>
-
-</span>
-
 <span class="questions">
 <h2>Questions</h2>
-
-<ol>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
+An example of an actual requirement of a project is: p.48,49
+<ol type="a">
+<li class="answer right">The system must let the user choose a loan term</li>
+<li class="answer wrong">Loan terms must be between 6 months and 30 years</li>
+<li class="answer right">Loan terms are of finite length but the length of the loan will vary by the type of loan.</li>
+<li class="answer wrong">The user must be able to select a loan term using a drop-down list box.</li>
 </ol>
-
-
-<ol>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-</ol>
-
-
-<ol>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-</ol>
-</span>
-
-<span class="references">
-<h2>References</h2>
-
-</span>
-
-<h1 id="4.37">4.37: Why Requirements Digging Is Hard</h1>
-
-<span class="summary">
-<h2>Summary</h2>
-
-</span>
-
-<span class="questions">
-<h2>Questions</h2>
-
-<ol>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-</ol>
-
-
-<ol>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-</ol>
-
-
-<ol>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-</ol>
-</span>
-
-<span class="references">
-<h2>References</h2>
-
-</span>
-
-<h1 id="4.38">4.38: Problems of Scope</h1>
-
-<span class="summary">
-<h2>Summary</h2>
-
-</span>
-
-<span class="questions">
-<h2>Questions</h2>
-
-<ol>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-</ol>
-
-
-<ol>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-</ol>
-
-
-<ol>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-</ol>
-</span>
-
-<span class="references">
-<h2>References</h2>
-
 </span>
 
 <h1 id="4.39">4.39: Problems of Understanding</h1>
 
-<span class="summary">
-<h2>Summary</h2>
-
-</span>
-
 <span class="questions">
 <h2>Questions</h2>
-
+Two ways to overcome problems of understanding are: p.49
+<b class="answer hidden">
 <ol>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
+<li>Having someone in the middle who has lived in both worlds and who can translate between the two.</li>
+<li>To have the customer as a part of the development team.</li>
 </ol>
-
-
-<ol>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-</ol>
-
-
-<ol>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-</ol>
-</span>
-
-<span class="references">
-<h2>References</h2>
-
-</span>
-
-<h1 id="4.40">4.40: Problems of Volatility</h1>
-
-<span class="summary">
-<h2>Summary</h2>
-
-</span>
-
-<span class="questions">
-<h2>Questions</h2>
-
-<ol>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-</ol>
-
-
-<ol>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-</ol>
-
-
-<ol>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-</ol>
-</span>
-
-<span class="references">
-<h2>References</h2>
-
-</span>
-
-<h1 id="4.41">4.41: Non-Technical Problems</h1>
-
-<span class="summary">
-<h2>Summary</h2>
-
-</span>
-
-<span class="questions">
-<h2>Questions</h2>
-
-<ol>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-</ol>
-
-
-<ol>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-</ol>
-
-
-<ol>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-</ol>
-</span>
-
-<span class="references">
-<h2>References</h2>
-
+</b>
 </span>
 
 <h1 id="4.42">4.42: Analyzing the Requirements</h1>
 
-<span class="summary">
-<h2>Summary</h2>
-
-</span>
-
 <span class="questions">
 <h2>Questions</h2>
-
+3 steps of analyzing requirements are: p.51
+<b class="answer hidden">
 <ol>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
+<li>Categorize them</li>
+<li>Prioritize them and</li>
+<li>Examine each of them.</li>
 </ol>
+</b>
 
-
-<ol>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-</ol>
-
-
-<ol>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-</ol>
-</span>
-
-<span class="references">
-<h2>References</h2>
-
-</span>
-
-<h1 id="4.43">4.43: Conclusion</h1>
-
-<span class="summary">
-<h2>Summary</h2>
-
-</span>
-
-<span class="questions">
-<h2>Questions</h2>
-
-<ol>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-</ol>
-
-
-<ol>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-</ol>
-
-
-<ol>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-<li class="answer wrong"></li>
-</ol>
-</span>
-
-<span class="references">
-<h2>References</h2>
-
+Precise requirements also means they are testable requirements.	p.51
+<ul>
+<li class="answer right">True</li>
+<li class="answer wrong">False</li>
+</ul>
 </span>
 
 </body>
