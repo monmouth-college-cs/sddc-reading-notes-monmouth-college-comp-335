@@ -1,5 +1,5 @@
-Author: Shayne Sendera
-Description: A markdown file containing the socrative-style questions and references for the final third of chapter 18 (pgs. 291-294).
+### Author: Shayne Sendera
+### Description: A markdown file containing the socrative-style questions and references for the final third of chapter 18 (pgs. 291-294).
 
 # Questions
 * TBD
