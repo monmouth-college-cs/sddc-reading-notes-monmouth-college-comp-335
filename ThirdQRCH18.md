@@ -1,13 +1,13 @@
 Author: Shayne Sendera
 Description: A markdown file containing the socrative-style questions and references for the final third of chapter 18 (pgs. 291-294).
 
-### Questions
+# Questions
 * TBD
 
-### References
+# References
 
 ## Ethical Discussion and Decision Making (pg. 291)
-# Identifying and Describing the Problem (pg. 291)
+### Identifying and Describing the Problem (pg. 291)
 1. Write down the statement of the ethical problem. This will help to clarify what
 exactly you’re talking about.
 2. List the risks, problems, and possible consequences.
@@ -19,7 +19,7 @@ wrongs of the situation and figure out what ethical rules might be involved.
 and safety issues.
 6. List possible actions if the problem is more complex than a simple yes/no.
 
-# Analyzing the Problem (pgs.291-292)
+### Analyzing the Problem (pgs.291-292)
 1. What are your first impressions or reactions to these issues? What do your morals say?
 2. Identify the responsibilities of the decision maker. This involves things like reporting ethical problems if you’re an employee and what your responsibilities might be as a manager.
 3. Identify the rights of the stakeholders.
@@ -31,7 +31,7 @@ and safety issues.
 using a utilitarian approach, you might consider picking a metric.
 9. If there are several ethically acceptable options, pick one.
 
-# Fundamental Ethical Principals (pgs. 293-294)
+### Fundamental Ethical Principals (pgs. 293-294)
 1. Be impartial: You will have some amount of loyalty to your company, but you also must have loyalty to society as a whole and to yourself.
 2. Disclose information that others ought to have: Don’t hide information from people who need to know it. Don’t be deceptive or deliberately misleading. Make sure you disclose any conflicts of interest.
 3. Respect the rights of others: This includes intellectual property rights, civil rights,
