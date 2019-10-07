@@ -2,7 +2,26 @@
 ### Description: A markdown file containing the socrative-style questions and references for the final third of chapter 18 (pgs. 291-294).
 
 # Questions
-* TBD
+
+### Which is not an element of identifying and describing the ethical problem. (pgs. 291-292)
+* List the risks, problems, and possible consequences.
+* Identify the rights of the stakeholders.
+* Identify any legal, intellectual property, health and safety issues.
+* List possible actions if the problem is more complex than a simple yes/no.
+
+* The answer is: Identify the rights of the stakeholders. This is a criterium that is a part of analyzing the ethical problem.
+
+### True or False, there is always a single, best solution to solving an ethical problem. (pg. 292)
+* Answer is false because from case to case, there isn't always a  clear single answer. Sometimes a team might need multiple solutions to fix their dilemma.
+
+### True or False, ethical issues are inevitable when you are a software development professional. (pg.293)
+* Answer is True because ethical issues will always come up throughout the design of a project.
+
+### List the 6 fundamental ethical principles that you should follow as a software developer (or someone in the industry). (pg. 293)
+* Be impartial, disclose information that others should know, respect the rights of others, treat others justly, take responsibility for you own actions and inactions, and take responsibility of those that you supervise.
+
+### Briefly describe one of the four case studies highlighted in the chapter and describe the ethical issues present. Then share what you would do and why.
+* Not looking for a particular answer here, this is more of a reading-check/discussion question.
 
 # References
 
@@ -44,3 +63,9 @@ and other property rights. Don’t steal intellectual property or misuse others 
 8. Continually improve your abilities: Software development and the computer industry as a whole are in a constant state of flux. Tools and languages you used in college will be obsolete five years later. Make sure you’re a life-long learner.
 9. Share your knowledge, expertise, and values: The more experience you acquire in your profession, the more you’re obligated to share your knowledge and
 expertise with your co-workers and subordinates. You should also set an example for others by living these values.
+
+# Case studies (pgs. 292-293)
+1. Copying Software - Software needs to be put on new school computers, and the license is $5,000. Should you just copy the current software to the new computers?
+2. Who's Computer Is It? - An employee is sick and another developer asks if you can copy all of their files in order to get some important work done. What should you do?
+3. How Much Testing Is Enough? - Creating software to destroy cancerous tumors through radiation therapy. Mid-way through testing the supervisor wants to cut the testing short in order to meet a deadline. What are the ethical issues? What do you do?
+4. How Much Should You Tell? - You and you're spouse are working at competing companies. You see some of their work for a city proposal similar to yours but it is much better than your own. Do you share the fact that your spouse works at one of the bidding companies? What are the ethical issues here?
