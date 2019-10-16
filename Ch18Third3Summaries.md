@@ -1,10 +1,10 @@
 ###Author: David Hofmann
 
-#Ethical Discussion and Decision Making
+#Ethical Discussion and Decision Making (pg. 291)
 
 One possible method of making an ethical decision involves identifying and describing the problem and then analyzing the problem and coming to a conclusion. The contents of each part can be changed to fit your situation and goals, but there are some recommended actions/questions.
 
-#Identifying and Describing the Problem
+#Identifying and Describing the Problem (pg. 291)
 
 Recommended actions: 
 
@@ -20,7 +20,7 @@ Recommended actions:
 
 6. List possible actions if the problem is more complex than a simple yes or no
 
-#Analyzing the Problem
+#Analyzing the Problem (pg. 291-292)
 
 Recommended actions/questions:
 
@@ -42,7 +42,7 @@ Recommended actions/questions:
 
 9. If multiple choices seem acceptable, pick one and reflect on your decision.
 
-#Case Studies
+#Case Studies (pg. 292-293)
 
 Here are four case studies depicting running into ethical problems involving intellectual property, privacy issues, system safety issues, and conflicts of interest, respectively:
 
@@ -54,7 +54,7 @@ Here are four case studies depicting running into ethical problems involving int
 
 4. A software consultant is asked to decide which of a set of companies should be given a bunch of money to make a city's new administrative computing system. The consultant's spouse works for one of the companies, and the consultant has seen and strongly approved of their spouse's proposal for the new system. How much about this should the consutant tell the city?
 
-#The Last Word on Ethics?
+#The Last Word on Ethics? (pg. 293-294)
 
 Fundamental ethical principles you should remember and follow:
 
