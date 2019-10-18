@@ -6,7 +6,7 @@ Chapter 18 (Pg: 286 - 290) - Questions and References
 - Question: How does one determine whether a moral rule is correct or good?
 Answer: A moral rule can be tested using the principle of universality. The book takes the example of promises to demonstrate the use of this principle. The moral being tested here is *I am allowed to make promises with the intention of breaking them later*. Applying this rule universally, we reach the conclusion that the word *promise* stops having a meaning if one can just break it at will based on their circumstances. Hence, the rule does not stand the universality principle. 
 
-- Reference: This page contains the pros and cons of the deontological ethics; can be useful in the future when making ethical decisions.
+- Reference (Pg: 286): This page contains the pros and cons of the deontological ethics; can be useful in the future when making ethical decisions.
 
 # Consequentialism (Teleological Theories, pg: 287)
 
@@ -18,4 +18,4 @@ Answer: Act utilitarianism is the theory that says that an action is good if its
 
 # Ethical Drivers (pg: 289-90)
 
-- Reference: *ACM Code of Ethics and Professional Conduct* and *ACM/IEEE-CS Software Engineering Code of Ethics*
+- Reference (Pg: 289-290): *ACM Code of Ethics and Professional Conduct* and *ACM/IEEE-CS Software Engineering Code of Ethics*
