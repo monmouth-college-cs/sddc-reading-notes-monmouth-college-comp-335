@@ -1,0 +1,3 @@
+# Chapter 18 Summary of Summaries
+
+The beginning of Chapter 18 starts with how to decide right from wrong and the impact that software developers can have on the world and how it relates to them. The chapter then goes into how we make thos decisions of what is right and wrong and encourages Dentological theories as a way of weighing all the pros and cons of an action. The chapter then loos in depth at a code of ethics for software engineers that states ethical ways of actions as well as their risks and possible ways to handle them.  
